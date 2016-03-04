@@ -1,2 +1,4 @@
-<h1>Creatures#show</h1>
-<p>Find me in app/views/creatures/show.html.erb</p>
+<h1><%= @creature.name %></h1>
+<p><%= @creature.description %></p>
+<img src="https://placekitten.com/g/300/<%= @creature.id+199%>" alt="..."><br>`
+<a href="/creatures">&larr; Back</a>
